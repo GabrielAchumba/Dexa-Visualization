@@ -17,11 +17,11 @@ module_names = list(hfpt_forecastResults.keys())
 n_module_names = len(module_names)
 
 current_column_index = 0
-variable_name_hfpt = "oilRatesYearly"
-variable_name_dexa = "oilRate"
+variable_name_hfpt = "salesGasRateYearly"
+variable_name_dexa = "gasDemandRates"
 x_axis_label = "Days"
-y_axis_label = "Oil Prod"
-divisor_dexa = 1
+y_axis_label = "Sales Gas"
+divisor_dexa = 1000
 divisor_hfpt = 1
 
 # Plotting function
